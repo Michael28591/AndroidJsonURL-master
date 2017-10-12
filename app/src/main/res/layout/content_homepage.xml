@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rez.connectiontesting.Homepage"
+    tools:showIn="@layout/app_bar_homepage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/firstbg"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Built for developers"
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="60sp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers. "
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textcolorwhitw"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GitHub for teams"
+                    android:textColor="@color/textcolorlightgrey"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A better way to work together "
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GitHub brings teams together to work through problems, move ideas forward, and learn from each other along the way. "
+                    android:textColor="@color/textcolorlightgrey"
+                    android:textSize="23sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/firstbg"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Security and administration"
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Boxes? Check."
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We worried about your administrative and security needs so you don’t have to. From flexible hosting to authentication options, GitHub can help you meet your team’s requirements.  "
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="23sp"
+                    android:textAlignment="center"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

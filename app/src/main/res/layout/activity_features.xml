@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rez.connectiontesting.Features">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/firstbg"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How developers work"
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="60sp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Support your workflow with lightweight tools and features. Then work how you work best—we'll follow your lead."
+                    android:textColor="@color/textcolorwhitw"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:paddingTop="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textcolorwhitw"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Code Review"
+                    android:textColor="@color/textcolorlightgrey"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seamless code review"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:paddingBottom="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Code review is the surest path to better code, and it’s fundamental to how GitHub works. Built-in review tools make code review an essential part of your team’s process."
+                    android:textColor="@color/textcolorlightgrey"
+                    android:textSize="23sp"
+                    android:textAlignment="center"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/feature"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
